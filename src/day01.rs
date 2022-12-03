@@ -33,7 +33,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn day01_part1() {
+    fn day01() {
         assert_eq!(counting_calories(), 203420);
     }
 }
