@@ -61,7 +61,7 @@ fn play() -> usize {
             _ => None,
         })
         .map(|(a, b)| calculate_points_for_game(a, b))
-        .fold(0, |x, xs| x + xs)
+        .fold(0, |xs, x| xs + x)
 }
 
 #[cfg(test)]
